@@ -1,0 +1,27 @@
+.list-item-container {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 10px;
+  /* border: 1px solid blue; */
+  width: 20%;
+}
+@media screen and (min-width: 768px) {
+  .list-item-container {
+    width: 18%;
+  }
+}
+.images-button {
+  background-color: transparent;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.thumbnail-image {
+  width: 100%;
+  border-radius: 5px;
+}

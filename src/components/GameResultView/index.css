@@ -1,0 +1,121 @@
+.game-result-bg-container {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .game-result-bg-container {
+    max-width: 900px;
+  }
+}
+
+.game-card-bg-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 576px) {
+  .game-card-bg-image {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .game-card-bg-image {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    background-size: cover;
+    width: 450px;
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .game-card-bg-image {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    background-size: cover;
+    width: 480px;
+    height: 680px;
+  }
+}
+
+.trophy-image {
+  width: 80%;
+  margin-top: 80px;
+}
+@media screen and (min-width: 768px) {
+  .trophy-image {
+    width: 55%;
+    margin-top: 120px;
+  }
+}
+
+.your-score-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .your-score-heading {
+    font-size: 28px;
+  }
+}
+
+.your-score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-top: 0px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .your-score {
+    font-size: 32px;
+  }
+}
+
+.play-again-button {
+  background-color: #cf60c8;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  height: 50px;
+}
+
+@media screen and(min-width: 768px) {
+  .play-again-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    height: 60px;
+  }
+}
+
+.play-again {
+  margin-right: 15px;
+}
